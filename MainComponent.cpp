@@ -105,6 +105,10 @@ MainContentComponent::MainContentComponent():codeDocumentComponent (codeDocument
 
 	gamerInfo = new DemoTabbedComponent();
 	addAndMakeVisible(gamerInfo);
+	LookAndFeel* p = new LookAndFeel_V2();
+	setLookAndFeel(p);
+	
+	//getLookAndFeel().setUsingNativeAlertWindows (false);
 }
 
 MainContentComponent::~MainContentComponent()
