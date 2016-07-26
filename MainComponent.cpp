@@ -122,13 +122,13 @@ void MainContentComponent::paint (Graphics& g)
 	area.setX(0);
 	area.setY(0);
 	area.setWidth(200);
-	area.setHeight(550);
+	area.setHeight(595);
 	gameRooms->resized();
 	gameRooms->setBounds(area);
-	area.setX(400);
+	area.setX(595);
 	area.setY(0);
-	area.setWidth(300);
-	area.setHeight(550);
+	area.setWidth(200);
+	area.setHeight(595);
 	gamerInfo->setBounds(area);
 }
 
